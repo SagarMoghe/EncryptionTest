@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
 
     var encryptor: AESEncryptor = AESEncryptor()
 
-    val encryptedValue: String? =encryptor.encrypt("sagar_asdasdasgdas_asfsdgadsg", secretKey)
+    val encryptedValue: String? =encryptor.encrypt("sagar_Test_String", secretKey)
     println(encryptedValue)
 
     val decryptedValue: String? =encryptor.decryptWithAES(secretKey, encryptedValue)
