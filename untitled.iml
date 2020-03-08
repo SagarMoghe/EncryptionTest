@@ -11,7 +11,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://A:/bcprov-jdk15on-154.jar!/" />
+          <root url="jar://$MODULE_DIR$/bcprov-jdk15on-154.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
